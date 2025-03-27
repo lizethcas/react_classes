@@ -1,0 +1,12 @@
+ :root{
+  --mi--color: #0000 
+ }
+
+.title{
+  color: rgb(0, 17, 128);
+  text-align: center;
+}
+
+.otro-color{
+  color:pink
+}
