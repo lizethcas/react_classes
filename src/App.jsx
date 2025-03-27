@@ -4,22 +4,15 @@ import { Section } from './components/Section'
 import './App.css'
 
 function App() {
-  const [state,setState]= useState(false)
-  const [name, setName] = useState("pepito")
+  const [state, setState] = useState(false)
+  const name = state ? "Andres" : "pepito"
+
+
 
 
   const handeClick = () => {
-    
-    if(state){
-      setName("Andres")
-      setState(!state)
-    }else{
-      setName("pepito")
-      setState(!state)
-    }
 
-    
-    
+    setState(!state)
   }
 
   return (
